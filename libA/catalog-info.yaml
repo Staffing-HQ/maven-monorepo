@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: library-A
+  description: Library A that handles absolutely nothing
+spec:
+  type: library
+  lifecycle: experimental
+  owner: group:default/developers
