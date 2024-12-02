@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: maven_monorepo
+spec:
+  type: url
+  targets:
+    - './libA/catalog-info.yaml'
+    - './libB/catalog-info.yaml'
